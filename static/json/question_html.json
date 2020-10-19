@@ -1,0 +1,48 @@
+{
+    "questionList": [
+        {
+            "no": 1,
+            "question": "段落を指定するためのタグは次のうちどれか。<img src='https://news.walkerplus.com/article/205022/1259246_615.jpg'>",
+            "choice": [
+                "p", "span", "pre", "div"
+            ],
+            "answer": "p" 
+        },
+        {
+            "no": 2,
+            "question": "リンクの出発点と到達点を指定するために使われるタグは次のうちどれか。",
+            "choice": [
+                "p", "span", "a", "table"
+            ],
+            "answer": "a" 
+        },
+        {
+            "no": 3,
+            "question": "リクエストが成功したことを示すステータスコードは次のうちどれか",
+            "choice": [
+                "100", "200", "300", "400"
+            ],
+            "answer": "200" 
+        },
+        {
+            "no": 4,
+            "question": "ページが削除されていたり、URLが変更されてページが見れなくなっているときに表示されるステータスコードは次のうちどれか",
+            "choice": [
+                "101", "202", "303", "404"
+            ],
+            "answer": "404" 
+        },
+        {
+            "no": 5,
+            "question": "次に示すCSSセレクタの中で、優先順位がもっとも低くなる指定はどれか。１つ選びなさい。",
+            "choice": [
+                ":hover:first-child",
+                "*:hover:first-child",
+                "div:hover:first-child",
+                "*:hover::first-letter",
+                "div:hover::first-letter"
+            ],
+            "answer": "*:hover::first-letter" 
+        }
+    ]
+}

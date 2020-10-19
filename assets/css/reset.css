@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body, div, p,  ul, ol, li, dl, dt, dd, table, th ,td, img, figure,
+h1, h2, h3 ,h4 ,h5, h6, form, select, button {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol		{ list-style: none; }
+
+img		{ border: 0; }
+
+img,
+svg,
+input,
+select,
+textarea,
+label	{ vertical-align: middle; }
+
+table	{ border-collapse: collapse; }
+
+h1, h2, h3 ,h4 ,h5, h6, th, em, strong { font-weight: normal; }
+
+pre {
+	margin: 0;
+	font-family: "Hiragino Maru Gothic Pro","メイリオ", sans-serif;
+}
+
+em {
+	font-style: normal;
+}
+header,article,section,aside {
+	width: 100%;
+}
+
+*,
+*:before,
+*:after {
+	word-break: break-all;
+	box-sizing: border-box;
+}
+pre	 {
+	white-space: pre-wrap;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+body {
+	-webkit-text-size-adjust: 100%;
+}
+input:disabled {
+	cursor: default !important;
+}
+input[type="radio"],input[type="checkbox"] {
+	margin: 0;
+	padding: 0;
+}
+textarea {
+	resize: none;
+}

@@ -1,0 +1,24 @@
+{
+    "title": "web問題集",
+    "btnName": "問題を解く",
+    "questionPaths":[
+        {
+            "filePath": "./json/question_html.json",
+            "title": "HTMLの問題"
+        },
+        {
+            "filePath": "./json/question_css.json",
+            "title": "CSSの問題"
+        },
+        {
+            "filePath": "./json/question_js.json",
+            "title": "JSの問題"
+        },
+        {
+            "filePath": "./json/question_other.json",
+            "title": "Webその他問題"
+        }
+    ],
+    "randam": true,
+    "choiceRandam": true
+}
